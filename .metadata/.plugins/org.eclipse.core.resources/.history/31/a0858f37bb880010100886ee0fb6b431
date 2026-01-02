@@ -1,0 +1,12 @@
+package Day2;
+
+public class VariableDemo {
+
+	public static void main(String[] args) {
+		int a; //Declaration	of variable	
+		a = 100; //Assignment of the variable
+		int b=200 ;//Declaration + assignment
+		System.out.println(a+b);
+	}
+
+}

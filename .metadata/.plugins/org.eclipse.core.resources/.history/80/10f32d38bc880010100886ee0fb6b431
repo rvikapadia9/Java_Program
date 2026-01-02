@@ -1,0 +1,23 @@
+package Day2;
+
+public class VariableDemo {
+    public static void main(String[] args) {
+        
+        // Approach 1: Separate declarations
+        int x = 100;
+        int y = 200;
+        int z = 300;
+        System.out.println("Approach 1: " + (x + y + z));
+
+        // Approach 2: Declare first, assign later
+        int a, b, c;
+        a = 100;
+        b = 200;
+        c = 300;
+        System.out.println("Approach 2: " + (a + b + c));
+
+        // Approach 3: Declare and assign together
+        int p = 100, q = 200, r = 300;
+        System.out.println("Approach 3: " + (p + q + r));
+    }
+}

@@ -1,0 +1,13 @@
+package Day3;
+
+public class OperatorsDemo {
+
+	public static void main(String[] args) {
+		//1)ArithMetic operators +-*/%
+		
+		int a=10,b=20;
+		System.out.println();
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package Day3;
+
+public class OperatorsDemo {
+
+    public static void main(String[] args) {
+        // 1) Arithmetic operators: + - * / %
+
+        int a = 20, b = 10;
+
+        int result = a + b; // Addition
+        System.out.println("Sum of a and b is:" + result);
+
+        // Direct addition inside println
+        System.out.println("Sum of a and b is:" + (a + b));
+
+        // Subtraction
+        System.out.println("Diff of a and b is:" + (a - b));
+
+        // Multiplication
+        System.out.println("Multiplication of a and b is: " + (a * b));
+
+        // Division (integer division)
+        System.out.println("Division of a and b is: " + (a / b));
+
+        // Modulo (remainder)
+        System.out.println("Modulo division of a and b is:" + (a % b));
+    }
+}

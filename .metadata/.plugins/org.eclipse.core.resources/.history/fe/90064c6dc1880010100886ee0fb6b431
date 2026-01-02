@@ -1,0 +1,15 @@
+package Day2;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// Numeric data types
+        int a = 100, b = 200;
+
+        System.out.println("the value of a is " + a);
+        System.out.println("the value of bis: " + b);
+        System.out.println("the sum of a and b is: "a + b);
+
+	}
+
+}
